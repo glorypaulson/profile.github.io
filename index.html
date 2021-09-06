@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Glory Paulson Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#education">Education</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Contact Us!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='https://tse2.mm.bing.net/th?id=OIP.dUGnX8VREaH_Sola0fH8kwHaHb&pid=Api&P=0&w=300&h=300'/>
+        <div class='herosectionDetails'>
+          <h1>Glory Paulson</h1>
+          <h3>Student @ AMC Engineering College</h3>
+        </div>
+      </section>
+       <section class='educationcertificates' id='educationcertificates'>
+        <div class='education' id='education'>
+         
+        <h1 class='eduheading'>EDUCATION</h1><img src='https://www.svgrepo.com/show/342573/education.svg'/>
+        <ul>
+         <li><b>School-></b><br>
+          Christ ICSE School: 2005-2016</li>
+          <li><b>Pre-University-></b><br>
+          St.Francis PU College : 2017-2019 <br>
+          Course: PCMC</li>
+          <li><b>College-></b><br>
+          AMC Engineerng College : 2019-2023 <br>
+          Course: Computer Science Engineering</li>
+         </ul> 
+        </div>
+          
+          <div class='certificates' id='certificates'>
+            <img src='https://www.svgrepo.com/show/100046/certificate.svg'/>
+          <h1> CERTIFICATES</h1>
+          <ul>
+            <li> Red Hat System Administration I (RH124) </li>
+            <li> C for Everyone: Programming Fundamentals </li>
+            <li> Introduction to HTML5 </li> 
+            <li> AI For Everyone </li>
+          </ul>
+          </div>
+          
+        </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do...</h1>
+        <p>I am good at learning concepts.Languages known are english,kannada,hindi,malayalam.I am thorough with programming languages like c,c++,java,html etc.Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='https://www.svgrepo.com/show/197982/html.svg'>
+          <img title='CSS' src='https://www.svgrepo.com/show/250453/css.svg'>
+          <img title='Javascript' src='https://www.svgrepo.com/show/250469/java.svg'>
+          <img title='Node.JS' src='https://www.svgrepo.com/show/314392/node.svg'>
+          <img title='React' src='https://www.svgrepo.com/show/306646/react.svg'>
+          <img title='MongoDB' src='https://www.svgrepo.com/show/303232/mongodb-logo.svg'>
+          <img title='Firebase' src='https://www.svgrepo.com/show/303670/firebase-1-logo.svg'>
+          <img title='Redux' src='https://www.svgrepo.com/show/303557/redux-logo.svg'>
+          <img title='C++' src='https://www.svgrepo.com/show/333518/c-plus-plus.svg'>
+          <img title='C' src='https://www.svgrepo.com/show/341667/c.svg'>
+          <img title='Java' src='https://www.svgrepo.com/show/232473/java.svg'>
+          </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='https://tse4.mm.bing.net/th?id=OIP.w_YRLaEiO2_GhlmykyPIpQHaHa&pid=Api&P=0&w=300&h=300'/>
+            <div class='projectDescription'>
+              <h4>Project 1</h4>
+              <p>Introduction to Basic Game Development using Scratch<br>
+                <a href='https://coursera.org/share/9b7c580f13af5781bc60049967cf6b11'>View certificate</a>
+              </p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='https://www.svgrepo.com/show/22051/task.svg'/>
+            <div class='projectDescription'>
+              <h4>Project 2</h4>
+              <p>Some details of the project</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Contact Me</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+
+        <div class='formGroup'>
+          <label for='phno'>Phone Number</label><br/>
+          <input type='number' id='phno' placeholder='Phone Number'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
